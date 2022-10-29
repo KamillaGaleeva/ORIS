@@ -1,0 +1,338 @@
+.body_center {
+    background: radial-gradient(rgba(24, 26, 33, 0) 0%, #181A21 100%) fixed no-repeat, url(https://store.akamai.steamstatic.com/public/shared/images/joinsteam/new_login_bg_strong_mask.jpg) center top no-repeat;
+    padding: 0px 8px;
+    width: 100%;
+}
+
+.center {
+    padding-top: 80px;
+    padding-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.incenter {
+    gap: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    color: #fff;
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: .055em;
+    font-weight: 200;
+    margin: 8px 30px;
+    font-family: "Motiva Sans", Sans-serif;
+}
+
+.input_window {
+    background-color: #181a21;
+    border-radius: 4px;
+    padding: 24px 32px;
+    flex: 1;
+    max-width: 636px;
+}
+
+.input_2windows {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.left_side {
+    flex: 1;
+    display: grid;
+    gap: 12px;
+    grid-template-columns: 1fr;
+    width: 412px;
+}
+
+.login_text {
+    color: #1999ff;
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: .02em;
+    font-family: "Motiva Sans", Sans-serif;
+    margin-bottom: 2px;
+}
+
+.login_window {
+    border-radius: 2px;
+    color: #fff;
+    padding: 10px;
+    background-color: #32353c;
+    outline: none;
+    font-size: 15px;
+    grid-area: input;
+    border: 1px solid #32353c;
+    width: 390px;
+}
+
+.password_text {
+    font-size: 12px;
+    color: #afafaf;
+    text-transform: uppercase;
+    letter-spacing: .02em;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+    margin-bottom: 2px;
+}
+
+.password_window {
+    border-radius: 2px;
+    color: #fff;
+    padding: 10px;
+    background-color: #32353c;
+    outline: none;
+    font-size: 15px;
+    grid-area: input;
+    border: 1px solid #32353c;
+    width: 390px;
+}
+
+.remember {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+.remember_text {
+    color: #afafaf;
+    font-size: 12px;
+    user-select: none;
+    padding-left: 6px;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+}
+
+.check {
+    width: 14px;
+    height: 14px;
+    padding: 3px;
+    border-radius: 2px;
+    background-color: #32353c;
+    cursor: pointer;
+    color: #32353c;
+}
+
+.enter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 29px;
+}
+
+.enter_button {
+    width: 270px;
+    position: relative;
+    background: linear-gradient(90deg, #06BFFF 0%, #2D73FF 100%);
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    padding: 12px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: inherit;
+    text-align: center;
+    letter-spacing: .03em;
+    cursor: pointer;
+    font-family: "Motiva Sans", Sans-serif;
+}
+
+.help {
+    text-align: center;
+    color: #afafaf;
+    font-size: 12px;
+    text-decoration: underline;
+    cursor: pointer;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+}
+
+.right_window {
+    flex: 1;
+    display: grid;
+    margin-left: 24px;
+}
+
+.beta {
+    color: #1999ff;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    margin: 6px 0px;
+    text-transform: uppercase;
+    letter-spacing: .02em;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+    height: 16px;
+}
+
+.QR_part {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 0px;
+}
+
+.qr {
+    width: 120px;
+    fill: #afafaf;
+}
+
+.qr_text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #afafaf;
+    font-family: "Motiva Sans", Sans-serif;
+    margin: 6px;
+}
+
+.more_button {
+    background-color: rgba(255,255,255,.1);
+    border-radius: 2px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 35px;
+    text-align: center;
+    color: #fff;
+    width: 98px;
+    height: 36px;
+    font-family: "Motiva Sans", Sans-serif;
+    text-decoration: none;
+}
+
+.beta_text1 {
+    text-align: center;
+    text-decoration-line: underline;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #afafaf;
+    padding: 12px 0px;
+    cursor: pointer;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+}
+
+.beta_text2 {
+    text-align: center;
+    text-decoration-line: underline;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #afafaf;
+    padding: 12px 0px;
+    cursor: pointer;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+}
+
+
+
+/*end*/
+.body_subscription {
+    display: flex;
+    flex-direction: row;
+    padding-top: 48px;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    justify-content: center;
+    background-color: #181A21;
+}
+
+.subscription_left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 200px;
+    color: #E9E9E9;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+}
+
+.subscription_img {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 200px;
+}
+
+.subscription_rigth {
+    margin: 20px 0 10px 0;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px;
+    color: #E9E9E9;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+}
+.subscription_text {
+    font-size: 14px;
+    color: #b8b6b4;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 200px;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+}
+.subscription_text_link {
+    max-width: 60%;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+    color: #FFFFFF;
+    text-decoration: none;
+    color: #ffffff;
+    color: #E9E9E9;
+    background-color: #181A21;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 200px;
+}
+.subscription_botton {
+    margin: 20px 0 10px 0;
+    display: block;
+    text-align: center;
+    padding: 0 15px;
+    font-size: 15px;
+    line-height: 30px;
+    line-height: 30px;
+    border-radius: 2px;
+    display: block;
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.4);
+    text-decoration: none;
+    color: #ffffff;
+    color: #E9E9E9;
+    background-color: #181A21;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+}
