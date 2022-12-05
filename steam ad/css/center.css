@@ -1,0 +1,250 @@
+.center_header {
+    gap: 32px;
+    width: 100%;
+    padding: 80px 0px 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lettering {
+    color: #fff;
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: .055em;
+    font-weight: 200;
+    padding-bottom: 40px;
+    font-family: "Motiva Sans", Sans-serif;
+}
+
+.logindialog_form {
+    flex: 1;
+    display: grid;
+    gap: 12px;
+    grid-template-columns: 1fr;
+}
+
+.logindialog {
+    background-color: #181a21;
+    border-radius: 4px;
+    padding: 24px 32px;
+    flex: 1;
+    min-width: 636px;
+}
+
+.logindialog_1 {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.logindialog_left_login, .logindialog_left_password {
+    grid-template-areas:
+        "label hint"
+        "input input";
+    grid-template-columns: 1fr min-content;
+    gap: 2px;
+    display: grid;
+}
+
+.logindialog_formlogin {
+    flex: 1;
+    display: grid;
+    gap: 12px;
+    grid-template-columns: 1fr;
+}
+
+.logindialog_left_login_class,
+.logindialog_right_one {
+    color: #1999ff;
+    font-family: "Motiva Sans", Sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .02em;
+    user-select: none;
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+.logindialog_left_login_input, .logindialog_left_password_input {
+    border-radius: 2px;
+    color: #fff;
+    padding: 10px;
+    background-color: #32353c;
+    outline: none;
+    font-size: 15px;
+    border: 1px solid #32353c;
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    cursor: text;
+    grid-area: input;
+}
+
+.logindialog_left_password_class {
+    font-size: 12px;
+    color: #afafaf;
+    text-transform: uppercase;
+    letter-spacing: .02em;
+    user-select: none;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+}
+
+.logindialog_left_remember {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logindialog_left_remember_square {
+    color: #afafaf;
+    font-size: 12px;
+    user-select: none;
+    padding-left: 6px;
+}
+
+.logindialog_left_enter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logindialog_left_remember_square {
+    color: #afafaf;
+    font-size: 12px;
+    user-select: none;
+    padding-left: 6px;
+}
+
+.logindialog_left_remember {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logindialog_left_enter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logindialog_help {
+    text-align: center;
+    color: #afafaf;
+    font-size: 12px;
+    text-decoration: underline;
+    cursor: pointer;
+    font-family: "Motiva Sans", Sans-serif;
+}
+
+.logindialog_text {
+    flex: 0;
+    display: grid;
+    gap: 4px;
+    margin-left: 24px;
+}
+
+.logindialog_right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 200px;
+}
+
+.logindialog_roght_one {
+    color: #1999ff;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    margin: 6px 0px;
+    text-transform: uppercase;
+    letter-spacing: .02em;
+}
+
+.logindialog_right_two {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 0px;
+}
+
+.qr_cod {
+    width: 120px;
+    fill: #afafaf;
+    padding: 0;
+    margin: 0;
+}
+
+.logindialog_right_two_text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #afafaf;
+    margin: 8px;
+    font-family: "Motiva Sans", Sans-serif;
+}
+
+.more {
+    background-color: rgba(255,255,255,.1);
+    border-radius: 2px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+}
+
+.logindialog_right_tree {
+    text-align: center;
+    text-decoration-line: underline;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #afafaf;
+    padding: 12px 0px;
+    cursor: pointer;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+}
+
+.remember {
+    color: #afafaf;
+    font-size: 12px;
+    user-select: none;
+    padding-left: 6px;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+}
+
+.enter {
+    width: 270px;
+    position: relative;
+    background: linear-gradient(90deg, #06BFFF 0%, #2D73FF 100%);
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    padding: 12px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: inherit;
+    text-align: center;
+    letter-spacing: .03em;
+    cursor: pointer;
+    font-family: "Motiva Sans", Sans-serif;
+}

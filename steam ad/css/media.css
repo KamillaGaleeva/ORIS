@@ -1,0 +1,59 @@
+@media screen and (max-width:910px) {
+    .responsive_header {
+        display: block;
+    }
+
+    .up_header {
+        display: none;
+    }
+
+    .down_2 {
+        display: none;
+    }
+
+    .menu_contact {
+        display: block;
+        padding: 0 12px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        line-height: 2.5em;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .logindialog_right_two_text {
+        text-align: center;
+    }
+
+    .qr_cod {
+        display: none;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .logindialog {
+        min-width: 0px;
+        background-color: transparent;
+    }
+
+    .logindialog_1 {
+        flex-direction: column;
+    }
+
+    .down_header_up {
+        flex-direction: column-reverse;
+    }
+
+    .lettering {
+        text-align: center;
+    }
+
+    .logindialog_right_one {
+        margin: 20px;
+    }
+
+    .logindialog_right {
+        align-items: center;
+    }
+}
