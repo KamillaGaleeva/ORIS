@@ -1,0 +1,6 @@
+namespace HttpServer;
+
+public abstract class EntityBase
+{
+    public int Id { get; set; }
+}
