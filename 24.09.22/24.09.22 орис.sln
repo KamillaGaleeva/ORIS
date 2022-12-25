@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "24.09.22 орис", "24.09.22 орис\24.09.22 орис.csproj", "{B1883EDC-B6BB-4110-A3BB-EADFC1E1A645}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1883EDC-B6BB-4110-A3BB-EADFC1E1A645}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1883EDC-B6BB-4110-A3BB-EADFC1E1A645}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1883EDC-B6BB-4110-A3BB-EADFC1E1A645}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1883EDC-B6BB-4110-A3BB-EADFC1E1A645}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D113B6B8-CDBE-4D0D-B6BD-B3B4E467618A}
+	EndGlobalSection
+EndGlobal
