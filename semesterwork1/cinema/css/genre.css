@@ -1,0 +1,59 @@
+
+.back {
+    background: #300000;
+}
+
+.clear {
+    clear: both;
+}
+/* отмена float */
+.about {
+    font-family: 'Lato', Verdana;
+    color: #fff;
+    /*background-color: #a87a7a;*/ /* коричневый фон секции "Обо мне"  */
+    text-align: center; /* позиционирование текста */
+    padding: 5em 0em; /* отступы для текста */
+}
+
+.wrap_about {
+    width: 90%; /* занимаемая ширина блоков по отношению к браузеру */
+    margin: 0 auto; /* расположение секций по центру */
+}
+
+.about h2 {
+    font-size: 2em;
+    padding-bottom: 0.5em; /* отступ снизу для заголовка */
+}
+
+.about p {
+    font-size: 1em;
+    padding-bottom: 4em; /* отступ снизу для параграфа */
+}
+
+.grid {
+    width: 30%; /* ширина белого блока */
+    float: left; /* выстраивание в ряд трех белых блоков */
+    /*background-color: #fff;*/ /* цвет блока */
+    margin: 0 1.5% 0 1.5%; /* отступы для белых блоков */
+    border: 1px solid black;
+    min-height: 508px; /* минимальная высота белых блоков */
+}
+
+    .grid h3 { /* цвет,размер и верхний отступ для заголовка белого блока */
+        color: #FBFCFC;
+        font-size: 1.4em;
+        margin-top: 15px;
+    }
+
+    .grid p { /* значения свойств для параграфа белого блока */
+        color: #F0F3F4;
+        font-size: 1.02em;
+        text-align: left;
+        padding: 1em 1em 2em 1em;
+        line-height: 1.9em;
+    }
+
+.clear {
+    clear: both;
+}
+/* отмена float */
