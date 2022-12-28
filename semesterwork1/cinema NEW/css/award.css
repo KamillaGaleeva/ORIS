@@ -1,0 +1,93 @@
+
+.back {
+    background: #300000;
+}
+.clear {
+    clear: both;
+}
+/* отмена float */
+.about {
+    font-family: 'Lato', Verdana;
+    color: #fff;
+    text-align: center; /* позиционирование текста */
+    padding: 5em 0em; /* отступы для текста */
+}
+
+.wrap_about {
+    width: 90%; /* занимаемая ширина блоков по отношению к браузеру */
+    margin: 0 auto; /* расположение секций по центру */
+}
+
+.about h2 {
+    font-size: 2em;
+    padding-bottom: 0.5em; /* отступ снизу для заголовка */
+}
+
+.about p {
+    font-size: 1em;
+    padding-bottom: 4em; /* отступ снизу для параграфа */
+}
+
+.grid {
+    width: 30%; /* ширина белого блока */
+    float: left; /* выстраивание в ряд трех белых блоков */
+    /*background-color: #fff;*/ /* цвет блока */
+    margin: 0 1.5% 0 1.5%; /* отступы для белых блоков */
+    border: 1px solid black;
+    min-height: 508px; /* минимальная высота белых блоков */
+}
+
+    .grid h3 { /* цвет,размер и верхний отступ для заголовка белого блока */
+        color: #FBFCFC;
+        font-size: 1.4em;
+        margin-top: 15px;
+    }
+
+    .grid p { /* значения свойств для параграфа белого блока */
+        color: #F0F3F4;
+        font-size: 1.02em;
+        text-align: left;
+        padding: 1em 1em 2em 1em;
+        line-height: 1.9em;
+    }
+
+.clear {
+    clear: both;
+}
+/* отмена float */
+#valantin {
+    width: 60%; /* ширина контейнера для всего блока меню */
+    list-style: none; /* немаркированные списки  */
+    margin: 2% auto;
+    padding: 0;
+}
+
+    #valantin li {
+        float: left;
+        margin-left: 17px;
+    }
+
+        #valantin li span {
+            background: #d0a5a5;
+            padding: 15px 30px; /* поля обрамляющие текст */
+            text-decoration: none; /* нет подчеркивания у названий меню */
+            color: #fff; /*цвет текста меню */
+            text-transform: uppercase; /*трансформация букв текста в заглавные  */
+            font-weight: 600; /*жирность текста */
+            cursor: pointer; /*вид курсора */
+        }
+            #valantin li span a {
+                color: white;
+                font-family: 'Lato', Verdana;
+                text-decoration: none;
+                font-weight: 600;
+                text-transform: uppercase;
+                cursor: pointer;
+            }
+            #valantin li span:hover {
+                background: #a97b7b; /*фон при наведении меняет цвет */
+            }
+
+            #valantin li span.active {
+                background: #a97b7b; /*цвет активного фона */
+            }

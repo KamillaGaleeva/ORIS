@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: #300000;
+}
+
+header {
+    width: 100%;
+    padding: 10px 0.5% 0px 0.5%;
+    background: transparent;
+    position: fixed;
+    top: 0;
+    background-color: #320C0C;
+    height: 70px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+    header #about {
+        color: white;
+        float: left;
+    }
+
+#logo {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    pointer-events: none;
+}
+
+    #logo a {
+        font-size: 40px;
+        letter-spacing: 4px;
+        text-decoration: none;
+        cursor: pointer;
+        color: white;
+        pointer-events: all;
+    }
+
+#about a {
+    font-size: 16px;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    line-height: 60px;
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+    #about a:hover {
+        color: white;
+    }
+
+#signin a {
+    float: right;
+    margin: 12px 30px 0px 0px;
+    font-size: 15px;
+    border-color: rgba(0, 0, 0, 0.706);
+    background-color: rgb(48 0 0 / 0,65);
+    padding: 7px 15px;
+    border-style: double;
+    text-decoration: none;
+    border-radius: 5px;
+    color: rgba(0, 0, 0, 0.645);
+}
+
+    #signin a:hover {
+        border-color: white;
+        cursor: pointer;
+        color: white;
+    }
+
+#profile {
+    float: right;
+    margin: 12px 30px 0px 0px;
+    width: 30px;
+    background-size: 30px;
+    background-repeat: no-repeat;
+}
+
+    #profile a {
+        font-size: 20px;
+        opacity: 0;
+        text-decoration: none;
+    }
+
+@media (min-width: 1001px) {
+    #about a {
+        float: left;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 1000px) {
+    header #about a {
+        display: none;
+    }
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.signin-form-container {
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+}
+
+.form-field {
+    padding: 5px;
+    width:;
+}
+
+.form-buttons {
+    padding: 10px;
+}
+
+.button {
+    width: 150px;
+    height: 25px;
+    color: white;
+    font-size: 15px;
+    background-color: black;
+    margin: 20px;
+}
+
+.input {
+    width: 200px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="icon" src="img/logo.png">
+    <title>ВХОД</title>
+</head>
+<body>
+    <header>
+        <div id="about">
+            <a href="award.html" title="ПРЕМИИ" onclick="slowScroll('#award')">ПРЕМИИ</a>
+            <a href="genre.html" title="ЖАНРЫ" onclick="slowScroll('#genre')">ЖАНРЫ</a>
+            <a href="cinema.html" title="ГЛАВНАЯ" onclick="slowScroll('#cinema')">ГЛАВНАЯ</a>
+        </div>
+        <div id="logo">
+            <a href="index.html">CINEMA</a>
+        </div>
+        <div id="signin">
+            <a href="singup.html">РЕГИСТРАЦИЯ</a>
+        </div>
+    </header>
+    <main>
+        <div class="login-form-container">
+            <h1 class="form-title">
+                ВХОД
+            </h1>
+            <div class="form-fields">
+                <form action="users/postLogin" method="post" class="form-example">
+                    <div class="form-field">
+                        <input name="login" type="email" placeholder="E-mail" id="login">
+                    </div>
+                    <div class="form-field">
+                        <input name="password" type="password" placeholder="Пароль" id="password">
+                    </div>
+                    <div class="form-field">
+                        <input type="hidden" name="check" value="off">
+                        <input name="check" type="checkbox" id="check" checked>
+                        <label class="check">Запомнить меня</label>
+                    </div>
+                    <button type="submit" class="button">Вход</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <script>
+    var url = new URL(window.location.href);
+        var err = url.searchParams.get("err");
+        if (err === "true")
+            alert("Wrong Login or Password");</script>
+</body>
+</html>
